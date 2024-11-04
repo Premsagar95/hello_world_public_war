@@ -14,7 +14,7 @@
 
   - name: download war file
     ansible.builtin.get_url:
-      url: "https://prem17.jfrog.io/artifactory/ps_war/webapp{{ build_number }}.war"
+      url: "https://prem17.jfrog.io/artifactory/ps_war/webapp/webapp{{ build_number }}.war"
       dest: /home/ubuntu/sourcefile/webapp.war
       username: hitesh
       password: Ht1438@00
